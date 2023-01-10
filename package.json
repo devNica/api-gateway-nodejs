@@ -1,0 +1,35 @@
+{
+  "name": "api-gateway-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "userms": "node src/user-ms.js",
+    "bookms": "node src/book-ms.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devNica/api-gateway-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devNica/api-gateway-nodejs/issues"
+  },
+  "homepage": "https://github.com/devNica/api-gateway-nodejs#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "express-session": "^1.17.3",
+    "helmet": "^6.0.1",
+    "http-proxy-middleware": "^2.0.6",
+    "response-time": "^2.3.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
